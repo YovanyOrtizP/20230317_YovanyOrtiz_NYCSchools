@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="8dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    app:cardCornerRadius="10dp">
+
+
+    <TextView
+        android:id="@+id/tv_school_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="School Name" />
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/tv_latitude"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            tools:text="Latitude"-->
+    <!--            android:gravity="center"-->
+    <!--            android:textSize="11sp"/>-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/tv_location"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            tools:text="Location"-->
+    <!--            android:gravity="center"-->
+    <!--            android:textSize="11sp"/>-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/tv_phone"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            tools:text="Phone Number"-->
+    <!--            android:gravity="center"-->
+    <!--            android:textSize="11sp"/>-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/tv_email"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            tools:text="Email"-->
+    <!--            android:gravity="center"-->
+    <!--            android:textSize="11sp"/>-->
+
+    <TextView
+        android:id="@+id/tv_website"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:textSize="14sp"
+        tools:text="Website" />
+
+    <TextView
+        android:id="@+id/tv_overview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:textSize="14sp"
+        tools:text="Overview" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Scores" />
+
+        <TextView
+            android:id="@+id/math_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:textSize="14sp"
+            tools:text="Math" />
+
+        <TextView
+            android:id="@+id/reading_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:textSize="14sp"
+            android:text="Reading" />
+
+        <TextView
+            android:id="@+id/writing_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:textSize="14sp"
+            tools:text="Writing" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_gravity="end"/>
+
+</LinearLayout>
+
+    <!--    data class SatResultResponse(-->
+    <!--    @SerializedName("dbn")-->
+    <!--    val dbn: String? = "",-->
+    <!--    @SerializedName("num_of_sat_test_takers")-->
+    <!--    val numOfSatTestTakers: String? = "",-->
+    <!--    @SerializedName("sat_critical_reading_avg_score")-->
+    <!--    val satCriticalReadingAvgScore: String? = "",-->
+    <!--    @SerializedName("sat_math_avg_score")-->
+    <!--    val satMathAvgScore: String? = "",-->
+    <!--    @SerializedName("sat_writing_avg_score")-->
+    <!--    val satWritingAvgScore: String? = "",-->
+    <!--    @SerializedName("school_name")-->
+    <!--    val schoolName: String? = ""-->
